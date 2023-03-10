@@ -1,6 +1,6 @@
+lista = ["apple", "orange", "banana"]
 
-lista = ["apple","orange","banan"]
 def dodaj_znak(lista):
     for i in range(len(lista)):
-     lista[i] += "!"
-print(dodaj_znak(lista))
+        lista[i] = lista[i].replace(lista[i], lista[i] + "!")
+    return lista
