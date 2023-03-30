@@ -2,3 +2,5 @@ txt = "Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przem
 x = txt.split()
 print(x)
 print(type(x))
+
+split() - разделить string на отдельные виражения 
