@@ -1,6 +1,6 @@
-number = eval(input("Please, enter the number, n = "))
-sum = 0
-for i in str(number):
-    sum += int(i)
+a = input("Please, enter the numbers : ")
+b = a.split()
+for i in b:
+    sqrt = int(i) ** 2
+    print(sqrt)
 
-print("The sum is ", sum)
