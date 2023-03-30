@@ -1,0 +1,17 @@
+import numpy as np
+
+vector = np.random.rand(1, 12)
+matrix_3x4 = vector.reshape(3, 4)
+print("matrix_3x4 \n", matrix_3x4)
+flatten1 = matrix_3x4.ravel()
+print("flatten\n", flatten1)
+vector2 = np.random.rand(1, 12)
+matrix_4x3 = vector2.reshape(4, 3)
+print("matrix_4x3 \n", matrix_4x3)
+flatten2 = matrix_4x3.ravel()
+print("flatten\n", flatten2)
+vector3 = np.random.rand(1, 12)
+matrix_2x6 = vector3.reshape(2, 6)
+print("matrix_2x6 \n", matrix_2x6)
+flatten3 = matrix_2x6.ravel()
+print("flatten\n", flatten3)
