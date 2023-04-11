@@ -10,3 +10,4 @@ while True:
     else:
         print("error,enter the number or end")
 print(lista)
+append - записує наприклад якесь значення на кінець нашої listy 
