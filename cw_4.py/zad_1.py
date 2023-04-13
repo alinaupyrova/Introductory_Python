@@ -1,5 +1,5 @@
 
 import numpy as np
-a = np.arange(0, 21, 2)
+a = np.arange(0, 40, 2)
 print(a)
 
