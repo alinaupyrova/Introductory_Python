@@ -11,6 +11,7 @@ for i in range (3):
 for j in range (3):
     print("Min number in column ", j, "is", np.min(first_matrix[:, j]))
 
+    [:,i] - на первом месте ряды а на втором месте колоны 
 print("Description of second matrix : ")
 
 for i in range (4):
