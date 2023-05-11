@@ -1,11 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
-
 df = pd.read_excel("imiona.xlsx")
 
-fig, axes = plt.subplots(nrows=1, ncols= 3)
+fig, axes = plt.subplots(nrows=1, ncols=3, figsize=(15, 4))
 
 # wykres 1
 women = df[df['Plec'] == "K"]['Liczba'].sum()
@@ -22,8 +20,7 @@ axes[1].set_title("Liczba urodzeń (K vs M) w czasie")
 
 # wykres 3
 data = df.groupby('Rok').sum()['Liczba']
-axes[2].bar(data.index,data)
+axes[2].bar(data.index, data)
 axes[2].set_title("Liczba urodzeń w sumie")
-
 
 plt.show()
